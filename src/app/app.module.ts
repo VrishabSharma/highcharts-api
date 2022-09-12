@@ -17,7 +17,7 @@ const appRoutes: Routes = [
   {
     path: "",
     pathMatch: "full",
-    redirectTo: "revenue-offerering"
+    redirectTo: "line-chart"
   },
   {
     path: "line-chart",

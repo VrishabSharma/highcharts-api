@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" routerLink="">DTW Demo</a>
     <button
@@ -15,24 +15,66 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+          <a class="nav-link" routerLinkActive="active" routerLink="line-chart">Line Chart</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="line-chart">Line Chart</a>
+          <a class="nav-link" routerLinkActive="active" routerLink="bar-graph">Active Customers</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="bar-graph">Active Customers</a>
+          <a class="nav-link" routerLinkActive="active" routerLink="product-offfering">Product Offfering</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="bar-graph">Product Offfering</a>
+          <a class="nav-link" routerLinkActive="active" routerLink="profitable-offer">Profitable Offer</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="profitable-offer">Profitable Offer</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="bar-graph">Product Offfering</a>
+          <a class="nav-link" routerLinkActive="active" routerLink="revenue-offerering">Product Offfering</a>
         </li>        
+
       </ul>
     </div>
   </div>
-</nav>
+</nav> -->
+<div
+  class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark"
+  style="width: 280px;"
+>
+  <a class="navbar-brand text-center" routerLink="">DTW Demo</a>
+  <hr />
+  <ul class="nav nav-pills flex-column mb-auto">
+    <li class="nav-item">
+      <a class="nav-link" routerLinkActive="active" routerLink="line-chart"
+        >Line Chart</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLinkActive="active" routerLink="bar-graph"
+        >Active Customers</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        routerLinkActive="active"
+        routerLink="product-offfering"
+        >Product Offfering</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        routerLinkActive="active"
+        routerLink="profitable-offer"
+        >Profitable Offer</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        routerLinkActive="active"
+        routerLink="revenue-offerering"
+        >Product Offfering</a
+      >
+    </li>
+  </ul>
+  <hr />
+</div>
